@@ -1,3 +1,6 @@
 .obsidian/
 .env
 log/
+Clippings
+.DS_Store
+Thumbs.db

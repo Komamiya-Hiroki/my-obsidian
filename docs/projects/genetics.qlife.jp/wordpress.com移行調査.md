@@ -345,11 +345,11 @@ DESCRIBE tutorial_articles;
 
 #### タグ（tags）テーブル構造
 
-| フィールド名 | データ型 | 必須 | 説明 | WordPress対応 |
-|-------------|----------|------|------|---------------|
-| id | int unsigned | ○ | 主キー | term_id |
-| created_on | datetime | | 作成日時 | - |
-| name | varchar(200) | ○ | タグ名（ユニーク） | name |
+| フィールド名     | データ型         | 必須  | 説明        | WordPress対応 |
+| ---------- | ------------ | --- | --------- | ----------- |
+| id         | int unsigned | ○   | 主キー       | term_id     |
+| created_on | datetime     |     | 作成日時      | -           |
+| name       | varchar(200) | ○   | タグ名（ユニーク） | name        |
 
 
 #### 学習（tutorials）テーブル構造
